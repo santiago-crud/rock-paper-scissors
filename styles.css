@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3e5ab;
+    background-image: radial-gradient(circle, rgba(255, 253, 208, 0.2) 1%, rgba(241, 211, 158, 0.4) 100%);
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #faf3dd;
+    border: 3px solid #5b4636;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 30px;
+    color: #4d362f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: 1px 1px #ccb299;
+  }
+
+  .choices {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .choice {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #5b4636;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ccb299;
+    color: #2f1e0e;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  #rock:hover {
+    background-color: #a67c52;
+    color: #fff;
+  }
+
+  #paper:hover {
+    background-color: #857c66;
+    color: #fff;
+  }
+
+  #scissors:hover {
+    background-color: #6e5841;
+    color: #fff;
+  }
+
+  .result {
+    text-align: center;
+    margin-top: 15px;
+    color: #5b4636;
+  }
+
+  .result p, .result h2 {
+    margin-bottom: 10px;
+  }
+
+  #player-choice span, #computer-choice span, #winner span {
+    font-weight: bold;
+    color: #2f1e0e;
+  }
