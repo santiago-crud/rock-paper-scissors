@@ -10,7 +10,7 @@ The game serves as a practical exercise for learning JavaScript fundamentals, ev
 To get started:
 1. Clone the repository.
 2. Open `index.html` in a browser.
-3. Implement the game logic in `script.js`.
+3. See if you can beat the computer by selecting an option.
 
 ## Where to Get Help
 For help, refer to the documentation, or open an issue on the project’s GitHub page.
